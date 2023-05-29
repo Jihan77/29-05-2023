@@ -1,0 +1,74 @@
+#left_container{
+    height: 600px;
+    width: 800px;
+    background-color: aquamarine;
+    margin: 20px;
+    float: left;
+}
+#right_container{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(235, 100, 22);
+    margin: 20px;
+    float: right;
+}
+
+#con{
+        height: 272px;
+        width: 241px;
+        margin: 10px;
+        float: left;
+        border: 2px solid black;
+}
+
+#triangle{
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-bottom: 110px solid rgb(186, 202, 36);
+    border-right: 50px solid transparent ;
+    margin: 0 auto;
+}
+#reactangle{
+    width: 200px;
+    height: 110px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+#parallelogram{
+    width: 170px;
+    height: 110px;
+    background-color:  blue;
+    transform: skew(-20deg);
+    margin: 0 auto;
+}
+#rhombus{
+    width: 110px;
+    height: 110px;
+    background-color: green;
+    transform: skew(-20deg);
+    margin: 0 auto;
+}
+#pantagon{
+    position: relative;
+    width: 150px;
+    height: 95px;
+    background-color: aqua;
+    clip-path: polygon(50% 0, 100% 38%,81% 100%,19% 100%,0 38%);
+    margin: 0 auto;
+}
+
+#ellipse{
+    width: 200px;
+    height: 110px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.mybutton{
+     
+    margin-top: 10px;
+     width: 100%;
+}
